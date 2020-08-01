@@ -154,6 +154,10 @@ If you have many functions that go well together, you can put them as a `XYZ.plu
 
 If you would like to override the functionality of a plugin distributed with Oh My Bash, create a plugin of the same name in the `custom/plugins/` directory and it will be loaded instead of the one in `plugins/`.
 
+### Headless installation
+
+To install oh-my-bash in headless mode run the installer script with the environment variable `OSH_HEADLESS` set to `1`.
+
 ## Getting Updates
 
 By default, you will be prompted to check for upgrades every few weeks. If you would like `oh-my-bash` to automatically upgrade itself without prompting you, set the following in your `~/.bashrc`:
